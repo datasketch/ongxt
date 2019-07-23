@@ -4,28 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900">
-  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/css/hamburgers.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Barlow|Barlow+Condensed:400,700&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href='{{ "css/default.css" | absURL }}'>
   {{ block "head" . }}{{ end }}
   <title>{{ .Site.Title }}</title>
 </head>
-<body>
-  <div id="wrapper" class="flex flex-col h-screen">
-    <div class="fixed inset-0 bg-white z-50 px-4 hidden" id="search-overlay">
-      <div class="text-right">
-        <button class="text-5xl text-chocolate search-close"><i class="icon ion-ios-close"></i></button>
-      </div>
-      <h2 class="uppercase text-center text-3xl text-chocolate">Buscar</h2>
-      <form action="" class="mt-10">
-        <input type="text" class="block text-center border-b border-chocolate w-full md:w-3/5 xl:w-2/5 mx-auto px-3 py-2 truncate" placeholder="Buscar noticias, proyectos, organizaciones y casos de estudio">
-      </form>
-      <div class="text-center">
-        <button class="uppercase text-xs tracking-wide text-chocolate mt-8 search-close">cancelar</button>
-      </div>
-    </div>
+<body class="font-barlow-condensed font-bold">
+  <div id="wrapper" class="flex flex-col min-h-screen">
     {{ partial "header.html" . }}
     <main class="flex-grow">
       {{ block "main" . }}{{ end }}

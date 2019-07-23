@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "EXPLORA LATAM"
+title = "ONGx por la transparencia"
 publishDir = "docs"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 

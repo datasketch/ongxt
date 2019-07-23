@@ -1,53 +1,31 @@
-body {
-  font-family: 'Montserrat', sans-serif !important;
+.font-barlow-condensed {
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
-.bg-swirl {
-  background-color: #dad3ce;
+.font-barlow {
+  font-family: 'Barlow', sans-serif;
 }
 
-.bg-chocolate {
-  background-color: #380101;
+.bg-regal-blue {
+  background-color: #003B70;
 }
 
-.bg-flint {
-  background-color: #716c69;
+.bg-blue-ribbon {
+  background-color: #105DFB;
 }
 
-.bg-derby {
-  background-color: #ffebda
+.border-regal-blue {
+  border-color: #003B70;
 }
 
-.border-chocolate {
-  border-color: #380101;
+.border-blue-ribbon {
+  background-color: #105DFB;
 }
 
-.text-chocolate {
-  color: #380101;
+.text-regal-blue {
+  color: #003B70;
 }
 
-.text-swirl {
-  color: #dad3ce;
-}
-
-.text-flint {
-  color: #716c69;
-}
-
-.text-derby {
-  color: #ffebda
-}
-
-.single-content * {
-  margin: 0 0 1.25rem;
-}
-
-.single-content ol {
-  list-style-type: decimal;
-  padding-left: 1.25rem;
-}
-
-.single-content h2 {
-  font-size: 1.25rem;
-  color: #380101;
+.text-blue-ribbon {
+  color: #105DFB;
 }
