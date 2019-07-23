@@ -1,0 +1,7 @@
+baseURL = "/"
+title = "EXPLORA LATAM"
+publishDir = "docs"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[blackfriday]
+  hrefTargetBlank = true

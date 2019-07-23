@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Orgs on Titi</title>
+    <link>/org/</link>
+    <description>Recent content in Orgs on Titi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 22 Nov 2018 17:33:28 -0500</lastBuildDate>
+    
+	<atom:link href="/org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First org</title>
+      <link>/org/first-org/</link>
+      <pubDate>Thu, 22 Nov 2018 17:33:28 -0500</pubDate>
+      
+      <guid>/org/first-org/</guid>
+      <description>La cocina colombiana se puede definir con una palabra: diversidad. La topografía, la fauna y la flora del país hacen que hablar de un alimento o plato representativo sea imposible. La variedad de ingredientes, algunos propios y otros importados, y las múltiples formas de preparar los alimentos permitieron la creación de al menos 700 recetas autóctonas.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+{{ define "head" }}
+  <link rel="stylesheet" href="/css/organization.css">
+{{ end }}
+
+{{ define "main" }}
+  <div class="h-64 flex items-center" style="background-image: linear-gradient(45deg, #f9f9f9, #dad3d3)">
+    <div class="container px-4 mx-auto">
+      <h1 class="text-5xl text-chocolate font-bold">{{ .Title }}</h1>
+      <div class="flex text-sm text-gray-800">
+        {{ if .Params.org_type }}
+          <p>{{ .Params.org_type }}</p>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  <div class="container px-4 py-10 mx-auto flex text-chocolate">
+    <div class="w-2/3 org-content mr-4">
+      {{ .Content }}
+    </div>
+    <div class="w-1/3">
+      <h2 class="uppercase font-bold tracking-wide text-xl mb-4">Información</h2>
+      {{ if .Description }}
+        <p class="mb-4">{{ .Description }}</p>
+      {{ end }}
+      <div class="flex text-2xl text-gray-900">
+        {{ if .Params.website }}
+          <a href="{{ .Params.website }}" rel="noopener noreferrer" target="_blank" class="mr-4"><i class="icon ion-ios-link"></i></a>
+        {{ end }}
+        {{ if .Params.facebook }}
+          <a href="{{ .Params.facebook }}" rel="noopener noreferrer" target="_blank" class="mr-4"><i class="icon ion-logo-facebook"></i></a>
+        {{ end }}
+        {{ if .Params.twitter }}
+          <a href="{{ .Params.twitter }}" rel="noopener noreferrer" target="_blank"><i class="icon ion-logo-twitter"></i></a>
+        {{ end }}
+      </div>
+    </div>
+    <div class="text-lg">
+    </div>
+  </div>
+{{ end }}

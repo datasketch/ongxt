@@ -1,0 +1,17 @@
+.org-content > * {
+  margin: 0 0 1.25rem;
+}
+
+.org-content ul {
+  list-style-type: circle;
+  padding-left: 1.5rem;
+}
+
+.org-content ul li {
+  margin: 0 0 .875rem;
+}
+
+.org-content ul li a {
+  color: #e53e3e;
+  text-decoration: underline;
+}
