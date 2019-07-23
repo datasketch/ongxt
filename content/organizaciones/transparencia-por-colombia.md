@@ -14,8 +14,7 @@ direccion: Carrera 45A N 93-61 Barrio la Castellana. Bogotá.
 
 La Corporación Transparencia por Colombia -TpC-, capítulo nacional de Transparency International, nace en 1998 como respuesta de la sociedad civil colombiana a un escenario político complejo, por la incidencia de la corrupción en la institucionalidad pública y en el debilitamiento de la democracia. Desde entonces, TpC ha liderado desde la sociedad civil la lucha contra la corrupción y por la transparencia, en lo público y en lo privado, para promover una ciudadanía activa, fortalecer las instituciones y consolidar nuestra democracia.
 
-## Reportes
+## Reporte 2018
 
-Esta organización tiene los siguientes proyectos:
-
-No información sobre proyectos de esta organización
+|Compromiso |Número |Descripción | Puntaje|
+|:----------|:------|:-----------|-------:|

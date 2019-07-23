@@ -14,9 +14,7 @@ direccion: {direccion}
 
 {descripcion}
 
-## Reportes
+## Reporte 2018
 
-Esta organización tiene los siguientes proyectos:
-
-{projects}
+{reporte}
 
