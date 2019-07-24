@@ -8,7 +8,11 @@
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href='{{ "css/default.css" | absURL }}'>
   {{ block "head" . }}{{ end }}
-  <title>{{ .Site.Title }}</title>
+  {{ if .Title }}
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+  {{ else }}
+    <title>{{ .Site.Title }}</title>
+  {{ end }}
 </head>
 <body class="font-barlow-condensed font-bold">
   <div id="wrapper" class="flex flex-col min-h-screen">
