@@ -7,7 +7,7 @@ website: "https://www.rednacionaldemujeres.org/index.php/nosotras/quienes-nos-in
 area_trabajo: area 1
 correo: "nacional@rednacionaldemujeres.org"
 direccion: Diagonal 40A Nº 14-75
-
+logo: https://dl.airtable.com/.attachments/2fc106f38124f5ef4722f3143a5ace93/2aed640e/rednacionalmujeres.jpg
 ---
 
 ## Descripción

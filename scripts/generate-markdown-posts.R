@@ -68,7 +68,9 @@ org_defaults <- list(
 )
 org2 <- modifyList(org_defaults, org)
 
+org2$logo <- org2$logo$url
 rep_org <- reportes1 %>% filter(organizacion_uid == org2$uid)
+
 rep_quant <- rep_org %>% filter(!is.na(puntaje)) %>%
   group_by(compromiso_numero, compromiso_nombre, compromiso_descripcion) %>%
   summarise(puntaje = sum(puntaje)) %>%
@@ -88,6 +90,7 @@ glue_data(org2, org_tpl)
 
 map(orgs, function(org){
   org2 <- modifyList(org_defaults, org)
+  org2$logo <- org2$logo$url
   rep_org <- reportes1 %>% filter(organizacion_uid == org2$uid)
   rep_quant <- rep_org %>% filter(!is.na(puntaje)) %>%
     group_by(compromiso_numero, compromiso_nombre, compromiso_descripcion) %>%

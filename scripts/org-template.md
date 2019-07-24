@@ -7,7 +7,7 @@ website: "{website}"
 area_trabajo: {area_trabajo}
 correo: "{correo}"
 direccion: {direccion}
-
+logo: {logo}
 ---
 
 ## Descripción

@@ -7,7 +7,7 @@ website: "https://www.colnodo.apc.org/es/inicio"
 area_trabajo: area 1
 correo: "info@colnodo.apc.org"
 direccion: Diagonal 40A NO 14 - 75
-
+logo: https://dl.airtable.com/.attachments/71fb24fe80fe009d5585138fd9e6f9ba/8eea70b6/colnodo.jpg
 ---
 
 ## Descripción

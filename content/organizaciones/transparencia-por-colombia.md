@@ -7,7 +7,7 @@ website: "http://transparenciacolombia.org.co/nosotros/sobre-nosotros/"
 area_trabajo: area 1
 correo: " claire.launay@transparenciacolombia.org.co"
 direccion: Carrera 45A N 93-61 Barrio la Castellana. Bogotá.
-
+logo: https://dl.airtable.com/.attachments/f311daf3a8e6350286baf966f8efa690/4d5839d1/transparencia.png
 ---
 
 ## Descripción

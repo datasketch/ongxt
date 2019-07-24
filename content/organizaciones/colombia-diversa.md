@@ -7,7 +7,7 @@ website: "https://colombiadiversa.org/"
 area_trabajo: area 1
 correo: "info@colombiadiversa.org"
 direccion: Calle 30A NO 6 - 22 Oficina 1102
-
+logo: https://dl.airtable.com/.attachments/41868d07ce829b6c01c7db358a12c027/87decb94/colombiadiversa.png
 ---
 
 ## Descripción

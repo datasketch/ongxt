@@ -3,11 +3,11 @@ date: 2019-07-16T20:21:07.000Z
 uid: con-tacto-local 
 title: "Con Tacto Local "
 director: 
-website: "http://google.com"
+website: ""
 area_trabajo: area 1
-correo: "xxxx@yyy.com"
+correo: ""
 direccion: 
-
+logo: https://dl.airtable.com/.attachments/c34e99a1af0f64db60aaeb6c58f32434/f7e3ba25/contactolocal.png
 ---
 
 ## Descripción

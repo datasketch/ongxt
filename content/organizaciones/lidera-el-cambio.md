@@ -7,7 +7,7 @@ website: "http://www.lideraelcambio.co/#aboutus"
 area_trabajo: area 1
 correo: ""
 direccion: 
-
+logo: https://dl.airtable.com/.attachments/62f8ca0b913280cb4fb4f908d970e159/aa97a893/lideraelcambio.png
 ---
 
 ## Descripción
