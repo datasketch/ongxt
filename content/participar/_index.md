@@ -1,3 +1,3 @@
 ---
-title: Participa
+title: Participar
 ---
