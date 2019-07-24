@@ -7,5 +7,58 @@
       </h1>
     </div>
   </div>
-  <div class="bg-white px-4 py-12"></div>
+  <div class="bg-white px-4 py-12">
+    <div class="container mx-auto">
+      <div class="md:w-4/5 lg:w-3/5 mx-auto">
+        {{ range .Pages }}
+          <div class="text-regal-blue mb-12">
+            <h1 class="text-4xl md:text-6xl mb-8 lg:w-3/5">
+              <span class="block">{{ .Title }}</span>
+              <div class="w-10 md:w-12 h-2 md:h-4 mt-2 bg-regal-blue"></div>
+            </h1>
+            {{ if .Params.director }}
+              <div class="mb-3">
+                <h3 class="text-3xl">Director(a)</h3>
+                <p class="font-normal text-xl truncate">{{ .Params.director }}</p>
+              </div>
+            {{ end }}
+            {{ if .Params.area_trabajo }}
+              <div class="mb-3">
+                <h3 class="text-3xl">Área de trabajo</h3>
+                <p class="font-normal text-xl truncate">{{ .Params.area_trabajo }}</p>
+              </div>
+            {{ end }}
+            {{ if .Params.website }}
+              <div class="mb-3">
+                <h3 class="text-3xl">Página web</h3>
+                <p class="font-normal text-xl truncate">
+                  <a href="{{ .Params.website }}" rel="noopener noreferrer" target="_blank">{{ .Params.website }}</a>
+                </p>
+              </div>
+            {{ end }}
+            {{ if .Params.tel }}
+              <div class="mb-3">
+                <h3 class="text-3xl">Teléfono</h3>
+                <p class="font-normal text-xl truncate">{{ .Params.tel }}</p>
+              </div>
+            {{ end }}
+            {{ if .Params.correo }}
+              <div class="mb-3">
+                <h3 class="text-3xl">Correo</h3>
+                <p class="font-normal text-xl truncate">
+                  <a href="mailto:{{.Params.correo}}">{{ .Params.correo }}</a>
+                </p>
+              </div>
+            {{ end }}
+            {{ if .Params.direccion }}
+              <div class="mb-3">
+                <h3 class="text-3xl">Dirección</h3>
+                <p class="font-normal text-xl truncate">{{ .Params.direccion }}</p>
+              </div>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
 {{ end }}
