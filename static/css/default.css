@@ -29,3 +29,18 @@
 .text-blue-ribbon {
   color: #105DFB;
 }
+
+.section-active {
+  color: #003B70;
+}
+
+.section-active:before {
+  background-color: #003B70;
+  content: '';
+  height: .25rem;
+  position: absolute;
+  top: 100%;
+  width: 1.25rem;
+  max-width: 100%;
+  left: 0;
+}

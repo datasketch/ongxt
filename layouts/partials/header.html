@@ -1,8 +1,8 @@
 <header class="bg-blue-ribbon text-white px-4 py-8">
   <nav class="container mx-auto text-lg md:text-xl flex justify-between md:justify-start">
-    <a href="/" class="md:mr-10">Inicio</a>
-    <a href="/organizaciones" class="md:mr-10">ONG asociadas</a>
-    <a href="/rendiciones" class="md:mr-10">Rendiciones</a>
-    <a href="/participar">Participar</a>
+    <a href="/" class="relative md:mr-10{{ if not .Section}} section-active{{end}}">Inicio</a>
+    <a href="/organizaciones" class='relative md:mr-10{{ if eq .Section "organizaciones"}} section-active{{ end }}'>ONG asociadas</a>
+    <a href="/rendiciones" class='relative md:mr-10{{ if eq .Section "rendiciones"}} section-active{{ end }}'>Rendiciones</a>
+    <a href="/participar" class='relative{{ if eq .Section "participar"}} section-active{{ end }}'>Participar</a>
   </nav>
 </header>
