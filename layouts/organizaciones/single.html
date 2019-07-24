@@ -5,7 +5,10 @@
 {{ define "main" }}
   <div class="text-regal-blue py-12 px-4">
     <div class="md:w-4/5 lg:w-3/5 mx-auto">
-      <h1 class="text-4xl md:text-6xl mb-8 lg:w-3/5">
+      {{ if .Params.logo }}
+        <img src="{{ .Params.logo }}" alt="{{ .Title }}" class="w-64 mt-2">
+      {{ end }}
+      <h1 class="text-4xl md:text-6xl mb-8">
         <span class="block">{{ .Title }}</span>
         <div class="w-10 md:w-12 h-2 md:h-4 mt-2 bg-regal-blue"></div>
       </h1>
