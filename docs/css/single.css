@@ -1,0 +1,34 @@
+.content p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: .75rem;
+}
+
+.content h2 {
+  font-size: 1.875rem;
+}
+
+.content table {
+  margin-top: .75rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  overflow-x: scroll;
+}
+
+.content table thead {
+  text-transform: uppercase;
+}
+
+.content table tbody {
+  font-size: 1rem;
+}
+
+.content ul {
+  list-style-type: circle;
+  padding-left: 1.25rem;
+}
+
+.content ol {
+  list-style-type: decimal;
+  padding-left: 1.25rem;
+}

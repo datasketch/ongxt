@@ -1,0 +1,46 @@
+.font-barlow-condensed {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.font-barlow {
+  font-family: 'Barlow', sans-serif;
+}
+
+.bg-regal-blue {
+  background-color: #003B70;
+}
+
+.bg-blue-ribbon {
+  background-color: #105DFB;
+}
+
+.border-regal-blue {
+  border-color: #003B70;
+}
+
+.border-blue-ribbon {
+  background-color: #105DFB;
+}
+
+.text-regal-blue {
+  color: #003B70;
+}
+
+.text-blue-ribbon {
+  color: #105DFB;
+}
+
+.section-active {
+  color: #003B70;
+}
+
+.section-active:before {
+  background-color: #003B70;
+  content: '';
+  height: .25rem;
+  position: absolute;
+  top: 100%;
+  width: 1.25rem;
+  max-width: 100%;
+  left: 0;
+}
